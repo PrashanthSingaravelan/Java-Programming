@@ -1,0 +1,18 @@
+-d
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\build\\classes"
+-classpath
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\build\\classes"
+-sourcepath
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\src"
+-target
+15
+-encoding
+UTF-8
+-g
+-processorpath
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\build\\empty"
+-s
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\build\\generated-sources\\ap-source-output"
+-source
+15
+"F:\\github\\Java-Programming\\Classes and Object netbeans\\basics_class_objects\\src\\basics_class_objects\\abstract_concrete_difference.java"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basic circle concept/Basic circle concept.iml" filepath="$PROJECT_DIR$/Basic circle concept/Basic circle concept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Box Program  (Netbeans)/Box Program  (Netbeans).iml" filepath="$PROJECT_DIR$/Box Program  (Netbeans)/Box Program  (Netbeans).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Inheritance.iml" filepath="$PROJECT_DIR$/.idea/Inheritance.iml" />
+    </modules>
+  </component>
+</project>
