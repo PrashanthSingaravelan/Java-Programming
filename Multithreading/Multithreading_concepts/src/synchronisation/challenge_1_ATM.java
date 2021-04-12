@@ -6,7 +6,7 @@ class ATM {
           try{ Thread.sleep(200);}catch(Exception e){}; // when 1 customer is using ATM, other customers must wait outside
     }
     
-    synchronized void withdraw(String name, int amount) {
+     synchronized void withdraw(String name, int amount) {
           System.out.println(name + " is withdrawing amount : " + amount);
           try{ Thread.sleep(500);}catch(Exception e){};  // when 1 customer is using ATM, other customers must wait outside
     }
@@ -23,13 +23,15 @@ class customer extends Thread {
           this.obj1 = cust_obj1;
     }
     
-public void book() {
+    public void book() {
         obj1.checkbalance(this.name);
         obj1.withdraw(this.name, this.amount);
 }
     
     public void run() {
-          book();  // to call both the methods checkbalance and withdraw (to maintain sync)
+       //obj1.checkbalance(this.name);
+       //obj1.withdraw(this.name, this.amount);
+         book();  // to call both the methods checkbalance and withdraw (to maintain sync)
     }
 }
 
