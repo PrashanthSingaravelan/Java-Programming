@@ -9,14 +9,8 @@ public class multiple_catch {
             int c[]  = {1};
             c[42]   = 99;
         }
-        catch(ArithmeticException e) {
-            System.out.println("Divide by 0 : " + e);
-        }
-        
-        catch(ArrayIndexOutOfBoundsException e) {
-            System.out.println("Array index out of bound : " + e);
-        }
-        
+        catch(ArithmeticException e) {  System.out.println("Divide by 0 : " + e);   }
+        catch(ArrayIndexOutOfBoundsException e) {   System.out.println("Array index out of bound : " + e);        }
         System.out.println("After try and catch block");
     }
 }

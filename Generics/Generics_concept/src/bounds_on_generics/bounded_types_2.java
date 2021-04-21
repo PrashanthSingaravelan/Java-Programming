@@ -5,7 +5,7 @@ class Stats<T extends Number> { // Number can be byte,short,int,float,double,
     Stats(T[] obj_main) {       obj_arr1 = obj_main;      }
     double average() {
         double sum = 0.0;
-        for(int i=0;i<obj_arr1.length;i++) {   sum = sum + obj_arr1[i].doubleValue();      }
+        for(int i=0;i<obj_arr1.length;i++)          {   sum = sum + obj_arr1[i].doubleValue();      }
         return (sum/obj_arr1.length);
     }
 }

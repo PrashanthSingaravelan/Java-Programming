@@ -8,6 +8,7 @@ class Gen <T> {
 
 public class Basic_4 {
     public static void main(String args[]) {
-           Gen<Integer> obj1[] = new Gen(   {1,2,3,4,5} ) ; 
+           //Gen<Integer> obj1[] = new Gen(   {1,2,3,4,5} ) ; 
+           Gen<Integer>obj1 = new Gen([1,2,3,4,5]);
     }
 }

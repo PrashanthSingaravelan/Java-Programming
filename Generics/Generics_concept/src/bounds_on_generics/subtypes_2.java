@@ -17,19 +17,19 @@ class MyArray2 extends MyArray1<String> {  // a generic can inherit from a gener
 
 public class subtypes_2 {
     public static void main(String args[]) {
-          MyArray1 obj = new MyArray1();
-          obj.append("Hello");
-          obj.append(10);
-          obj.append(98.75);
-          System.out.println("Class-1 ");   obj.display1();
-        
-          MyArray2 obj1 = new MyArray2 ();
+          MyArray1 obj1 = new MyArray1();  // generic objects --> I can insert any values
           obj1.append("Hello");
           obj1.append(10);
           obj1.append(98.75);
+          System.out.println("Class-1 ");   obj1.display1();
+        
+          MyArray2 obj2 = new MyArray2 ();  // string objects --> I can insert any string values
+          obj2.append("Hello");
+          //obj2.append(10);
+          //obj2.append(98.75);
           
           System.out.println("Class-1 ");    obj1.display1();
-          System.out.println("Class-2 ");    obj1.display2();
+          System.out.println("Class-2 ");    obj2.display2();
     }
 }
 
