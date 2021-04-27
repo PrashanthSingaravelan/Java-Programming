@@ -19,6 +19,6 @@ public class simple_join {
         obj1.start();
         // obj1.join();
         
-        System.out.println(Thread.currentThread().getName()  +  "  is started");
+        System.out.println(Thread.currentThread().getName()  +  "  is completed");
     }
 }
