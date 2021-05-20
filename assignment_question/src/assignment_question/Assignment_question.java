@@ -48,9 +48,9 @@ public class Assignment_question {
        // Object deserialization
         try {
                    Donor[] obj2 = new Donor[4];
-                   FileInputStream fos      = new FileInputStream("serial");
-                   ObjectInputStream oos = new ObjectInputStream(fos);
-                   for(int i=0;i<4;i++) { obj2[i] = (Donor[i])ois.readObject(); }
+                   FileInputStream fis      = new FileInputStream("serial");
+                   ObjectInputStream ois = new ObjectInputStream(fis);
+                   for(int i=0;i<4;i++) { obj2[i] = (Donor[i])ois.readObject(); } 
         } catch(Exception e) {}
         
         
