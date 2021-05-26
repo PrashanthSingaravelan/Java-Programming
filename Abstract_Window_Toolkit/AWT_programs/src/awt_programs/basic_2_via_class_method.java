@@ -21,7 +21,12 @@ class my_frame extends Frame {
 
 public class basic_2_via_class_method {
     public static void main(String args[]) {
-            my_frame f1_obj = new my_frame("Prashanth window");     f1_obj.setSize(300,300);      f1_obj.setVisible(true);
-            my_frame f2_obj = new my_frame("David window");            f2_obj.setSize(300,300);       f2_obj.setVisible(true);
+            my_frame f1_obj = new my_frame("Prashanth window");     
+            f1_obj.setSize(300,300);      
+            f1_obj.setVisible(true);
+            
+            my_frame f2_obj = new my_frame("David window");            
+            f2_obj.setSize(300,300);       
+            f2_obj.setVisible(true);
     }
 }
