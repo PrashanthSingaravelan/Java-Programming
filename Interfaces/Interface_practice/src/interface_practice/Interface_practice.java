@@ -1,7 +1,6 @@
 package interface_practice;
 
-interface Test
-{
+interface Test  {
     void method1();
     void method2();
 }

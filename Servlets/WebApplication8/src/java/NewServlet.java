@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 public class NewServlet extends HttpServlet {    
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+   protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out=response.getWriter();
@@ -15,6 +15,7 @@ public class NewServlet extends HttpServlet {
         str=request.getParameter("firstname");
         str1=request.getParameter("lastname");
         out.println("name is :"+str+str1);
+        
         out.println(
          "<html>\n" +
             "<head><title>" + "title" + "</title></head>\n" +
@@ -31,8 +32,5 @@ public class NewServlet extends HttpServlet {
         
         );   
         out.close();
-        
         }
-    
-
 }
