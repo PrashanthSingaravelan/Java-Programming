@@ -5,8 +5,6 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 import java.sql.ResultSet;
 
-import java.sql.*;
-
 public class basic_1 {
     public static void main(String[] args) throws Exception {
                 Class.forName("org.sqlite.JDBC");   // Driver is available
@@ -31,5 +29,9 @@ public class basic_1 {
                 System.out.println("Model : " + model + "   Color : " + color + " Engine type : " + engine_type
                 + " Fuel type : " + fuel_type + " Unit Price : " + unit_price);
                 }
+                
+                rs.close();
+                stm.close();
+                con.close();
         }   
 }

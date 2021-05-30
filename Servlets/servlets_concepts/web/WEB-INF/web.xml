@@ -5,24 +5,24 @@
         <servlet-class>basic_helloworld</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>basic_form</servlet-name>
-        <servlet-class>basic_form_1</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>basic_form_2</servlet-name>
         <servlet-class>basic_form_2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>basic_form_1</servlet-name>
+        <servlet-class>basic_form_1</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>servlet_1</servlet-name>
         <url-pattern>/servlet_1</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>basic_form</servlet-name>
-        <url-pattern>/basic_form</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>basic_form_2</servlet-name>
         <url-pattern>/basic_form_2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>basic_form_1</servlet-name>
+        <url-pattern>/basic_form_1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
