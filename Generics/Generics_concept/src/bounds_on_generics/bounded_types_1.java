@@ -1,25 +1,23 @@
 package bounds_on_generics;
 
-class A{}
-class B extends A{}
-class C extends A{}
-
-class MyArray1<T extends A> {    // Number can be byte,short,int,float,double, 
-        T arr1[] = (T[]) new Object[10];
-        int length=0;
-        void append(T item_main) {  arr1[length++]  = item_main;  }
-        void display() {
-            System.out.println("\nThe array elements are : ");
-            for(int i=0;i<length;i++)       {  System.out.print(arr1[i]); }
-        }
+class Stats<T extends Number> { // Number can be byte,short,int,float,double, 
+    T[] obj_arr1;
+    Stats(T[] obj_main) {       obj_arr1 = obj_main;      }
+    double average() {
+        double sum = 0.0;
+        for(int i=0;i<obj_arr1.length;i++)          {   sum = sum + obj_arr1[i].doubleValue();      }
+        return (sum/obj_arr1.length);
+    }
 }
 
 public class bounded_types_1 {
     public static void main(String args[]) {
-          MyArray1<A> obj1 = new MyArray1<A>();
-          /*
-          obj1.append(100f) ;    
-          obj1.append(150f);
-          obj1.display(); */
+          Integer arr1_main[] = {10,20,30,40,50};
+          Stats<Integer> obj1 = new Stats(arr1_main);
+          System.out.println("Integer Average is : " + obj1.average() );
+        
+          Double arr2_main[]  = {90.43 , 89.12 , 34.12 , 89.23};
+          Stats<Double> obj2  = new Stats(arr2_main);
+          System.out.println("Double Average is : " + obj2.average() );
     }
 }

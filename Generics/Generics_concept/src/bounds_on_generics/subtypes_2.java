@@ -4,6 +4,7 @@ class MyArray1<T> {
           T arr1[] = (T[]) new Object[10];
           int length = 0;
           void append(T v)                 {  arr1[length++] = v;    }
+          
           void display1()       {
               for(int i=0;i<length;i++)     {  System.out.println(arr1[i]);        }
           }

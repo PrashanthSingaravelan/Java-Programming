@@ -12,6 +12,10 @@
         <servlet-name>basic_form_1</servlet-name>
         <servlet-class>basic_form_1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>sabs</servlet-name>
+        <servlet-class>sabs</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>servlet_1</servlet-name>
         <url-pattern>/servlet_1</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>basic_form_1</servlet-name>
         <url-pattern>/basic_form_1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sabs</servlet-name>
+        <url-pattern>/sabs</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

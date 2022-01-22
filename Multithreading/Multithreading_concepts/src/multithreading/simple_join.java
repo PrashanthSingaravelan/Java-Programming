@@ -11,13 +11,11 @@ public class simple_join {
                 Thread.sleep(1000);
                 System.out.println(Thread.currentThread().getName()  +  "  is completed");
         }
-        catch (InterruptedException e) {
-            System.out.println(e);
-        }
+        catch (InterruptedException e) {    System.out.println(e);        }
     }
 };
-        obj1.start();
-        // obj1.join();
+         obj1.start();
+         obj1.join();
         
         System.out.println(Thread.currentThread().getName()  +  "  is completed");
     }
