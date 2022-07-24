@@ -14,13 +14,10 @@ abstract class Super {
 
 class Sub extends Super {
     @Override
-    public void method2() {
-        System.out.println("Method-1 of Sub");
-    }
+    public void method2() { System.out.println("Method-1 of Sub"); }
 }
 
 public class Abstract_class {
-
     public static void main(String[] args) {
         Super obj1 = new Sub();
         obj1.method1();
