@@ -7,7 +7,7 @@ Programs
   Basic Skeleton --> 'https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/1_Introduction/Programs/program_1.java'
   Getting User Inputs --> 'https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/1_Introduction/Programs/program_2.java'
 
-  
+
 
 ## Java Concepts
 
@@ -21,15 +21,18 @@ Programs
 
 ## Classes and Objects
 
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/circle_class.java"> Lecture Notes</a>
+</li>
+
 <ul>
 
-<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/circle_class.java"> Circle class</a> 
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/circle_class.java"> Circle class</a>
 </li>
 
-<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/cylinder_class.java"> Cylinder class</a> 
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/cylinder_class.java"> Cylinder class</a>
 </li>
 
-<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/rectangle_class.java"> Rectangle class</a> 
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/11_Object%20Oriented%20Programming/Programs/classes_and_objects/src/main/java/com/mycompany/classes_and_objects/rectangle_class.java"> Rectangle class</a>
 </li>
 
 </ul>

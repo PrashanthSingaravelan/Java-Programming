@@ -1,0 +1,9 @@
+Record        paint colour           Quantity	     Cost
+3             Sand blue                 7 	     57.98
+17            Storim red                76	     11.99
+24            Royal orange              21 	     11.00
+39            Green                     3 	     79.50
+56            red                       18	     99.99
+68            black                     106 	     6.99
+77            Sledge pink               2	     1.50 
+83            baby rose                 34 	     7.50
