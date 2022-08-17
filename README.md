@@ -48,6 +48,7 @@ get() and set()</a>
 </ul>
 
 ## Multithreading
+### Lecture Notes
 <ul>
 <li> <a href = ""> Multithreading </a>
 </li>
@@ -55,5 +56,34 @@ get() and set()</a>
 
 <ul>
 <li> <a href = ""> Synchronisation </a>
+</li>
+</ul>
+
+### Programs
+<ul>
+<li> <a href = ""> Using Thread Class </a>
+</li>
+</ul>
+
+<ul>
+<li> <a href = ""> Using Thread Interface </a>
+</li>
+</ul>
+
+## Servlets
+### Lecture Notes
+<ul>
+<li> <a href = ""> Multithreading </a>
+</li>
+</ul>
+
+<ul>
+<li> <a href = ""> Synchronisation </a>
+</li>
+</ul>
+
+### Programs
+<ul>
+<li> <a href = ""> Addition of Two Numbers </a>
 </li>
 </ul>

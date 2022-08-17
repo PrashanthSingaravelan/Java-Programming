@@ -4,13 +4,16 @@
         <servlet-name>perform_operations</servlet-name>
         <servlet-class>perform_operations</servlet-class>
     </servlet>
+    
     <servlet-mapping>
         <servlet-name>perform_operations</servlet-name>
         <url-pattern>/perform_operations</url-pattern>
     </servlet-mapping>
+    
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
+    
 </web-app>
