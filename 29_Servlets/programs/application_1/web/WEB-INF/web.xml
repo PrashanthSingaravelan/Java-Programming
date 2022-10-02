@@ -4,16 +4,29 @@
         <servlet-name>perform_operations</servlet-name>
         <servlet-class>perform_operations</servlet-class>
     </servlet>
-    
+    <servlet>
+        <servlet-name>sessions</servlet-name>
+        <servlet-class>application_1.sessions</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>hit_count</servlet-name>
+        <servlet-class>application_1.hit_count</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>perform_operations</servlet-name>
         <url-pattern>/perform_operations</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>sessions</servlet-name>
+        <url-pattern>/sessions</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hit_count</servlet-name>
+        <url-pattern>/hit_count</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
-    
 </web-app>

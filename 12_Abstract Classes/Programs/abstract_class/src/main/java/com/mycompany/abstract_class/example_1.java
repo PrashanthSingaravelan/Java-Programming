@@ -23,7 +23,7 @@ class rectangle extends shape {
     public double perimeter() { return (2*(length + breadth)); }
     
     @Override
-    public double area()     { return (length*breadth); }
+    public double area()      { return (length*breadth); }
 }
 
 
