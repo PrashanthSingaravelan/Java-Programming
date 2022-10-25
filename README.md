@@ -130,7 +130,7 @@ get() and set()</a>
 
 
 
-### Programs
+## General Programs
 <ul>
 <li> <a href = ""> Addition of Two Numbers </a>
 </li>
