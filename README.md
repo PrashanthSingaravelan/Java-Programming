@@ -86,45 +86,45 @@ get() and set()</a>
 ### Connection Less (UDP)
 <ul>
 <li>
-    <a href = " ">client.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/connection_less/datagram_socket_packet_client.java">client.java</a>
 </li>
 </ul>
 
 <ul>
 <li>
-    <a href = " ">server.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/connection_less/datagram_socket_packet_server.java">server.java</a>
 </li>
 </ul>
 
 ### Connection oriented (TCP)
 <ul>
 <li>
-    <a href = " ">client.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/connection_oriented/client_program.java">client.java</a>
 </li>
 </ul>
 
 <ul>
 <li>
-    <a href = " ">server.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/connection_oriented/server_program.java">server.java</a>
 </li>
 </ul>
 
 ### Remote Method Invocation
 <ul>
 <li>
-    <a href = " ">client.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/rmi_programs/rmi_client.java">client.java</a>
 </li>
 </ul>
 
 <ul>
 <li>
-    <a href = " ">server.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/rmi_programs/rmi_server_implementation.java">server.java</a>
 </li>
 </ul>
 
 <ul>
 <li>
-    <a href = " ">interface.java</a>
+    <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Network%20Programming/tcp_udp_rmi/src/java/rmi_programs/uppercase_interface.java">interface.java</a>
 </li>
 </ul>
 
