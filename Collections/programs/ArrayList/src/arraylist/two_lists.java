@@ -21,5 +21,10 @@ public class two_lists {
         } catch (Exception e) {
             System.out.println(e);
         }
+        
+        System.out.println("Before adding elements : " + list2);
+        list2.addAll(2,Arrays.asList("extra", "element"));
+        System.out.println("After adding elements : " + list2);
+        
     }
 }

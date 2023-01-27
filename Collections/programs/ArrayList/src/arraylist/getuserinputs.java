@@ -25,7 +25,7 @@ public class getuserinputs {
         System.out.println("Normal Printing : " + list1);
         
         // for-each
-        System.out.println("Normal Printing : ");
+        System.out.println("for-each Printing : ");
         for(int element:list1) 
             System.out.print(element);
         
