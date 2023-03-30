@@ -6,11 +6,11 @@
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs48 \cf0 // index-optional\
-list.add(index, element)\
-list.addAll(index, collections) \
+list.add(index, element) 		list.remove(element)  or list.remove(index)\
+list.addAll(index, collections)    list.removeAll(collections)\
 list.set(index, element)\
 \
-list.get(element) // only the 1st occurrence\
+list.get(index) // only the 1st occurrence\
 list.lastIndexOf(element)\
 \
 list.contains(element)\
@@ -22,4 +22,10 @@ list.isEmpty()\
 list.remove(index)\
 list.clear()\
 \
-Collections.swap(list1, index1, index2)}
+list1.retainAll(list2) \'97> if all the list-2 elements are contained in list-1\
+\
+Collections.swap(list1, index1, index2)\
+\
+list1.size()\
+\
+list1.getFirst() -> to get the 1st element}

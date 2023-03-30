@@ -13,12 +13,21 @@ public class traversing_linkedlst {
         while(ascen_iter_obj.hasNext()) 
             System.out.print(ascen_iter_obj.next() + " ");
         
-        System.out.println("Reverse");
+        System.out.println("\nReverse");
         Iterator des_iter_obj = list1.descendingIterator();
         while(des_iter_obj.hasNext()) 
             System.out.print(des_iter_obj.next() + " ");
         
+        
+         System.out.println("\nForward");
+        list1.forEach(element -> {
+           System.out.print(element + " "); 
+        });
+        
         String last_element = list1.pollFirst();
-        System.out.println(last_element);
+        System.out.println("\nLast element : " + last_element);
+        
+        System.out.println("Remove : " + list1.removeIf(str->str.contains("Vijay")));   
+        
     }
 }

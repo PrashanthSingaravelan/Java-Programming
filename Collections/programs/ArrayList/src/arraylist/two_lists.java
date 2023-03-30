@@ -26,5 +26,9 @@ public class two_lists {
         list2.addAll(2,Arrays.asList("extra", "element"));
         System.out.println("After adding elements : " + list2);
         
+        System.out.println("Before retaining : " + list2);
+        
+        System.out.println(list1.retainAll(list2));
+        System.out.println(list2.retainAll(list1));
     }
 }

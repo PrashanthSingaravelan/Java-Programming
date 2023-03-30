@@ -1,6 +1,7 @@
 package thread_concepts;
 
 public class RunnableInterface_singleclass implements Runnable{
+    
     public void run() {
         int i=1;
         while(true) {
