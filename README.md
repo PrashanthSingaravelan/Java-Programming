@@ -50,12 +50,12 @@ get() and set()</a>
 ## Multithreading
 ### Lecture Notes
 <ul>
-<li> <a href = ""> Multithreading </a>
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Final%20Docs/Multi-threading.pdf"> Multi-threading </a>
 </li>
 </ul>
 
 <ul>
-<li> <a href = ""> Synchronisation </a>
+<li> <a href = "https://github.com/PrashanthSingaravelan/Java-Programming/blob/main/Final%20Docs/Synchronisation.pdf"> Synchronisation </a>
 </li>
 </ul>
 
